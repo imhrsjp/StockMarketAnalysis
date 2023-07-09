@@ -29,11 +29,5 @@ def FeaturePage(request):
     })
 
 
-def Testing(request):
-     return "Testing"
-
-
-
-
 def SendMail():
     print("Email sent successfully")

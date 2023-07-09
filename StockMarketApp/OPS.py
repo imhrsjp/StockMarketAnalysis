@@ -20,7 +20,7 @@ def getUserDataKey(func_value, duration):
 
 def getDataFromAPI(func_value, stock_symbol, duration):
     global DATA_AVAILABLE
-    API_URL = "https://www.alphavantage.co/query?function={}&symbol={}&outputsize=full&interval={}&datatype=json&apikey=06FT9M9R3CJ17XRZ".format(
+    API_URL = "https://www.alphavantage.co/query?function={}&symbol={}&outputsize=full&interval={}&datatype=json&apikey=".format(
         func_value, stock_symbol, duration)
     data = requests.get(API_URL)
     userData = data.json()
