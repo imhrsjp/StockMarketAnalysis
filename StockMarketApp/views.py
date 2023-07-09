@@ -29,6 +29,9 @@ def FeaturePage(request):
     })
 
 
+def Testing(request):
+     return "Testing"
+
 
 
 
